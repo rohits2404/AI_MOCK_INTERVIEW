@@ -11,10 +11,11 @@ const InterviewPage = async () => {
             <h3>Interview Generation</h3>
             <Agent
             userName={user?.name!}
-            type='generate'
+            userId={user?.id}
+            type="generate"
             />
         </>
     )
 }
 
-export default InterviewPage
+export default InterviewPage;
